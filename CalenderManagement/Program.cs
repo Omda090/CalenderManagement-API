@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//Omda-Calender
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
